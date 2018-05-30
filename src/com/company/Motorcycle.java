@@ -18,9 +18,9 @@ public class Motorcycle extends Bicycle{
     }
 
     // one method
-    public void printMotorcycle()
+    public void print()
     {
-        super.printBike();
+        super.print();
         System.out.println(className+ "'s Pedal number is: " + pedalNum);
         System.out.println(className+ "'s Gas Tank is: " + gasTank);
         System.out.println(className+ "'s Motor is: " + motor);

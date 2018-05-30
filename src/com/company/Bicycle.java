@@ -11,9 +11,9 @@ public class Bicycle extends Bike {
     }
 
     // one method
-    public void printBicycle() {
+    public void print() {
 
-        super.printBike();
+        super.print();
         System.out.println(this.getClass().getName() +"'s Pedal number is: " + pedalNum);
     }
 }

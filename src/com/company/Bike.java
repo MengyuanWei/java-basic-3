@@ -13,11 +13,11 @@ public class Bike {
         this.seatShape = seatShape;
     }
 
-//    public Bike(){}
+
 
     // 1 method
 
-    public void printBike(){
+    public void print(){
 
         System.out.println(className + "'s Wheel shape is : " + wheelShape);
         System.out.println(className + "'s Wheel number is : "+ wheelNum);
