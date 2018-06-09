@@ -12,6 +12,8 @@ public class Test{
         Bike testBike = new Bike("Round",2,"Cool");
         testBike.print();
 
+        
+
         Bicycle testBicycle = new Bicycle(3,"star",3,"bad");
 
         testBicycle.print();

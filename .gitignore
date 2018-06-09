@@ -19,8 +19,11 @@
 *.rar
 *.tar
 *.zip
+<<<<<<< HEAD
 *.iml
 *.idea
+=======
+>>>>>>> cacf83955eb6ea166af449b4d8b12f13b18cebf2
 
 # Logs and databases #
 ######################
@@ -36,4 +39,8 @@
 .Spotlight-V100
 .Trashes
 ehthumbs.db
+<<<<<<< HEAD
 Thumbs.db
+=======
+Thumbs.db
+>>>>>>> cacf83955eb6ea166af449b4d8b12f13b18cebf2
