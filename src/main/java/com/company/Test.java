@@ -1,5 +1,5 @@
 
-
+package com.company;
 
 // Main function to test those three classes
 
