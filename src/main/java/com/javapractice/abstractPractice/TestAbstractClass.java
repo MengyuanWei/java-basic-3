@@ -11,3 +11,4 @@ public class TestAbstractClass {
         System.out.println(ak47.getaK47());
     }
 }
+
