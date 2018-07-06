@@ -8,7 +8,7 @@ public class TestMain {
        }
 
        catch (ArithmeticException a){
-           System.out.println ("Invalid number of C, can not be zero");
+           System.out.println ("Exception Found: "+a);
        }
 
        try{

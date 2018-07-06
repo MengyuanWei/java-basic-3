@@ -1,4 +1,4 @@
-package com.company;
+package com.classexcierce;
 
 public class Motorcycle extends Bicycle{
 

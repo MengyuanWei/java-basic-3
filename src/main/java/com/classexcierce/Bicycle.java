@@ -1,5 +1,5 @@
 
-package com.company;
+package com.classexcierce;
 
 public class Bicycle extends Bike {
 

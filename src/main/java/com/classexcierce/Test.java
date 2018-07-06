@@ -1,5 +1,5 @@
 
-package com.company;
+package com.classexcierce;
 
 // Main function to test those three classes
 
