@@ -3,7 +3,7 @@ package com.corejava;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-public class TimeFlys {
+public class TimeFlysUsingTimeClass {
     public static void main (String[] args){
         String startDate = "03-15-19";
         String endData = "05-12-19";
