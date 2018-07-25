@@ -1,6 +1,6 @@
 package com.corejava;
 
-public class main {
+public class mainSkyline2Darray {
     public static void main (String[] args){
         Java2dArray java2dArray = new Java2dArray();
         int [][] result = {
@@ -9,7 +9,6 @@ public class main {
                 {9, 2, 6, 3},
                 {0, 3, 1, 0}
                };
-
         java2dArray.maxIncreaseKeepingSkyline(result);
     }
 }
