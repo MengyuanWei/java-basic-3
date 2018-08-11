@@ -46,7 +46,7 @@ public class Solution {
             System.out.println(swapArray[i]);
         }
     }
-    
+
     public int[] swap(int a,int b){
         int [] swapArray=new int[5];
         int temp = a;
