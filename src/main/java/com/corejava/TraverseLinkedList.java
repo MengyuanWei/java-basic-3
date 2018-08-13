@@ -13,9 +13,6 @@ public class TraverseLinkedList {
             next=null;
         }
 
-        public void printList(){
-            Node node = ;
-        }
 
         public static void main(String[] args){
             LinkedList<Integer> linkedList= new LinkedList<>();
