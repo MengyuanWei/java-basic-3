@@ -1,11 +1,11 @@
 package com.corejava.SolutionStreet;
-
 //Write a function that accepts a single string input and returns the first non-repeated character.
 //        "AABBCDD" // "C"
 //        "AABBCCDEEFF" // "D"
 public class Solution {
 
     private char output;
+
     public char findFirstChar (String input) {
 
         for (int i = 0; i < input.length(); i++) {
@@ -14,17 +14,12 @@ public class Solution {
                 System.out.println("The first char would be: " +input.charAt(i));
                 break;
             }
-            else {
-                System.out.println("There is no such a char");
-            }
         }
         return output;
     }
-
     public static void main(String[] args){
         Solution solution = new Solution();
-        solution.findFirstChar("AAAABBDD");
+        solution.findFirstChar("AAAACBBDD");
     }
-
 }
 

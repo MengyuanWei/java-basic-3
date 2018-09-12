@@ -9,7 +9,7 @@ public class TimerPrac {
     public static void main(String[] args) {
         TimerPrac timerPrac = new TimerPrac();
         try{
-            timerPrac.count(1000);
+            timerPrac.count(5);
         }
         catch (Exception e){
            System.out.println(e);

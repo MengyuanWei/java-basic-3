@@ -37,8 +37,6 @@ public class BaseBallStack {
                     sum = sum + parseInt(op);
             }
         }
-
-
         return sum;
     }
 }
