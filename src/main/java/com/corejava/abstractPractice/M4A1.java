@@ -16,6 +16,4 @@ public class M4A1 extends Ar {
         this.bullet = bullet;
         return bullet;
     }
-
-
 }

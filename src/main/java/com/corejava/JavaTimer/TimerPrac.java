@@ -19,7 +19,7 @@ public class TimerPrac {
     public void count(int a) throws InterruptedException{
         for( int i =a;i>=0;i--){
             System.out.println(i);
-            outputList.add(i);
+            //outputList.add(i);
             thread.sleep(5000/a);
         }
     }

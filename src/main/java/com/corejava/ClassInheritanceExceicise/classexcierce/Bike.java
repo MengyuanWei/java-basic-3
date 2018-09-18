@@ -12,6 +12,7 @@ public class Bike {
         this.wheelShape = wheelShape;
         this.wheelNum = wheelNum;
         this.seatShape = seatShape;
+
     }
 
 

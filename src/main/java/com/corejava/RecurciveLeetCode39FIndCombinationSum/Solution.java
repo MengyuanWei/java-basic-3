@@ -22,27 +22,25 @@ public class Solution {
     private int value = 0;
     public static void main(String[] args){
         Solution solution = new Solution();
-        int[] numArray = new int[] {2,4,6,10};
-        solution.rec(16,numArray,3);
+        int[] numArray = new int[] {2,4,6,10,8};
+        System.out.println("Total possible combination is "+solution.rec(18,numArray,4));
+
     }
 
     public int rec(int total, int [] numArray,int start){
 
         if(total==0){
             return 1;
+        } else if(start < 0){
+            return 0;
         }
-        else if(total-numArray[start]>0){
+        else if(total<numArray[start]){
+            return rec(total,numArray,start-1);
+        }
+        else{
             int val = rec(total-numArray[start],numArray,start-1);
             int va2 = rec(total,numArray,start-1);
             return val+va2;
-        }
-        else if(start == 0){
-            return 0;
-        }
-        else
-        {
-            int val3 = rec(total,numArray,start-1);
-            return val3;
         }
     }
 }
