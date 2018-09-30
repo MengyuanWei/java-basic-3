@@ -31,7 +31,7 @@ public class StacksQueue {
         Integer [] num = {1,2,3,4,5};
         stacksQueue.implementationQueue(num);
         System.out.println("what the input look like: ");
-                System.out.println(Arrays.toString(num));
+        System.out.println(Arrays.toString(num));
         System.out.println("Pop from the second stack to achieve the functionality of Queue");
         stacksQueue.printStack(stacksQueue.result());
     }
